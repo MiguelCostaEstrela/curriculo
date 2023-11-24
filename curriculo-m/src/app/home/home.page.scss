@@ -1,0 +1,22 @@
+
+.botao{
+    height:0.5cm;
+   display: flex; 
+   align-items: center;
+    
+  }
+
+.topo{
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img {
+  display: block;
+  margin: auto;
+  border: 2px solid #333; /* Cor da borda e largura */
+  padding: 10px; /* Espaçamento interno da borda */
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  height: auto; /* Garante que a altura da imagem seja ajustada proporcionalmente à largura */
+}
